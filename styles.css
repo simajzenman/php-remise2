@@ -1,0 +1,132 @@
+.nom_spec {
+	display: none;
+}
+
+.col-xs-6  input{
+	width: 300px
+}
+
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.form-group > label{
+	width: 100%;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+li{	
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+legend{
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+.bodyStyle {
+	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.846;
+    color: #666666;
+    background-color: #ffffff;
+    border: 0;
+}
+
+.last{
+	width: 100%;
+}
+
+.noLeft{
+	padding-left: 0;
+}
+
+.form-group-question{
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+.left{
+	float: left;
+	margin-left: 100px;
+	margin-top: 0;
+}
+
+.left input:before{
+	margin-top: 10px;
+}
+
+.left label,.left input{
+	padding: 10px 0;
+}
+
+.left:first-child{
+	margin-left: 0;
+}
+
+.submit{
+	margin-top: 15px;
+}
+
+.btn{
+	padding: 10px 35px;
+}
+
+textarea{
+	resize: none;
+}
+
+
+@media screen and (max-width: 750px) {
+	.list > li, .list > li input, .list > li label{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+.container{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+}
+	.list > li.submit{
+		padding: 0;
+		
+	}
+
+	.left input[type="radio"],.noLeft .left label{
+		width: inherit;
+	}
+
+	.noLeft .left label{
+		width: 90%;
+		
+	}
+
+	
+
+	.left{
+		float: none;
+		margin-left: 0;
+		margin-bottom: 15px
+	}
+input[type="radio"]{
+	width: inherit;
+}
+}
